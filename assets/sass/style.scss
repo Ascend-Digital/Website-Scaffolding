@@ -1,0 +1,16 @@
+/**
+ * By default, this variable is left empty as we make no assumptions about
+ * how your workflow or directory structure is going to be.
+ *
+ * If you were going to use this package for a WordPress website though, you
+ * would likely want to use the following:
+ *
+ *     $website_url: '/wp-content/themes/twentytwenty'
+ *     
+ */
+$website_url: '';
+
+@import 'vars';
+@import 'mixins';
+
+// @import 'normalise';

@@ -1,0 +1,23 @@
+/**
+ *  CUSTOM VARIABLES
+ *
+ *  All SASS variables should be configured, set and declared in this file.
+ *	Use variables rather than hard coded values to maintain consistency
+ *	throughout the design and allow more flexiblity when updating and making
+ *	tweaks during the development of a project.
+ */
+
+$white: '#ffffff';
+$black: '#000000';
+
+// these colours are those of the Twitter Bootstrap palette
+$brand-info:       '#17a2b8';
+$brand-primary:    '#0d6efd';
+$brand-secondary:  '#6c757d';
+$brand-success:    '#28a745';
+$brand-warning:    '#ffc107';
+$brand-error:      '#dc3545';
+
+$font-size-base: 16px;
+$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+// $font-family-icon: 'FontAwesome';

@@ -1,0 +1,85 @@
+# Ignore everything in the "wp-content" directory, except:
+# "mu-plugins", "plugins", "themes" directory
+src/wp-content/*
+!src/wp-content/mu-plugins/
+!src/wp-content/plugins/
+!src/wp-content/themes/
+
+# Ignore these plugins
+src/wp-content/plugins/hello.php
+
+# Ignore specific themes
+src/wp-content/themes/twenty*/
+
+# Ignore node dependency directories
+node_modules/
+vendor/
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore Operating System/Editor files and directories
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+sftp-config.json
+.serenata
+
+# Directories to ignore
+.hg
+.svn
+.CVS
+intermediate
+publish
+.idea
+.git/
+
+# Otherwise obvious always-ignore extensions
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# Ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Ignore secret files
+*.der
+*.key
+*.pem
+
+# Track-worthy files
+!.gitignore
+!.editorconfig
+!.phpcs.xml.dist
